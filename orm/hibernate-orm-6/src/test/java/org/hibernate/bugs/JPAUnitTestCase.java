@@ -143,6 +143,7 @@ public class JPAUnitTestCase {
 	@Entity(name = "Language")
 	@Table(name = LANGUAGE_TABLE_NAME)
 	@Immutable
+	// @jakarta.persistence.PrimaryKeyJoinColumn
 	public static class Language extends VA {
 
 		public Language() {
