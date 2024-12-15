@@ -7,10 +7,15 @@
 	<version>1.0.0.Final</version>
 	<name>Hibernate ORM 6 Test Case Template</name>
 
+	<!-- 
+	<version.org.hibernate>6.1.7.Final</version.org.hibernate>
+	<version.org.hibernate>6.4.10.Final</version.org.hibernate>
+	<version.org.hibernate>6.6.3.Final</version.org.hibernate>
+	-->
 	<properties>
 		<version.com.h2database>2.2.224</version.com.h2database>
 		<version.junit>4.13.2</version.junit>
-		<version.org.hibernate>6.4.2.Final</version.org.hibernate>
+	<version.org.hibernate>6.6.3.Final</version.org.hibernate>
 	</properties>
 
 	<dependencies>
